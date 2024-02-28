@@ -1,0 +1,18 @@
+#outer{
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    background-image:url(img1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#inner{
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.434);
+    backdrop-filter:10px;
+}

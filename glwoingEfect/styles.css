@@ -1,0 +1,22 @@
+h1{
+    font-size: 100px;
+    font-weight: 900;
+    text-align: center;
+    background:linear-gradient(to left, red,blue);
+    color: transparent;
+     -webkit-background-clip: text; 
+     text-shadow: 0 0 60px rgba(255, 0, 0, 0.406);
+     animation: anime 1s infinite alternate;
+     font-stretch: 150%;
+     transition: all ease 0.5s;
+     font-family: Arial, Helvetica, sans-serif;
+}
+h1:hover{
+    font-stretch: 250%;
+    
+}
+@keyframes anime{
+    100%{
+        text-shadow: 0 0 60px rgba(0, 0, 255, 0.401);
+    }
+}

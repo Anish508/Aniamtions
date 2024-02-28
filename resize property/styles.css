@@ -1,0 +1,19 @@
+body{
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    padding: 10px;
+}
+#box{
+    background-color: salmon;
+    color: #fff;
+    padding: 10px;
+    resize: both;
+    overflow: auto;
+    max-height: 200px;
+    max-width: 600px;
+}
